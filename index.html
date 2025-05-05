@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Domingo Hernández Díaz - El Amigo Sastre</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3c6e47',
+                        secondary: '#295937',
+                        accent: '#f9f6f2',
+                    },
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-accent font-poppins text-gray-800">
+    <header class="relative bg-cover bg-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+        <div class="container mx-auto px-4 py-24 text-center text-white">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 animate-fadeInDown">Domingo Hernández Díaz</h1>
+            <p class="text-xl md:text-2xl mb-8 animate-fadeInUp">El Amigo Sastre • Distribuidor DXN • Salud Divina Plus
+            </p>
+            <a href="#contacto" class="inline-block bg-primary hover:bg-secondary text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:-translate-y-1">Contáctame</a>
+        </div>
+    </header>
+
+    <nav class="sticky top-0 z-50 bg-primary shadow-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center py-4">
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="#inicio" class="text-white hover:bg-secondary px-4 py-2 rounded-lg transition-colors duration-300">Inicio</a>
+                    <a href="#sobre-mi" class="text-white hover:bg-secondary px-4 py-2 rounded-lg transition-colors duration-300">Sobre
+                        mí</a>
+                    <a href="#dxn" class="text-white hover:bg-secondary px-4 py-2 rounded-lg transition-colors duration-300">Productos
+                        DXN</a>
+                    <a href="#pan" class="text-white hover:bg-secondary px-4 py-2 rounded-lg transition-colors duration-300">Pan
+                        artesanal</a>
+                    <a href="#sastreria" class="text-white hover:bg-secondary px-4 py-2 rounded-lg transition-colors duration-300">Sastrería</a>
+                    <a href="#contacto" class="text-white hover:bg-secondary px-4 py-2 rounded-lg transition-colors duration-300">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Bienvenido</h2>
+            </div>
+            <p class="text-center text-lg max-w-3xl mx-auto">Gracias por visitar mi página. Aquí podrás conocer más sobre los productos de salud DXN que vendo, mis servicios de sastrería y el pan artesanal que elaboro con dedicación.</p>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Sobre mí</h2>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-8 max-w-3xl mx-auto transform transition-transform duration-300 hover:-translate-y-1">
+                <p class="text-lg">Soy Domingo Hernández Díaz, originario de San Pedro Nichtalucum, El Bosque, Chiapas. Trabajo como sastre desde hace más de 10 años, ayudando a personas a vestir con elegancia y a la medida. También soy distribuidor independiente de los
+                    productos DXN y trabajo con Salud Divina Plus, comprometido con la salud natural. En mis horas libres elaboro pan de masa madre, saludable y sabroso.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="dxn" class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Productos DXN</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white rounded-xl shadow-lg p-8 transform transition-transform duration-300 hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-primary mb-4">Café Lingzhi 3 en 1</h3>
+                    <p class="text-gray-600">Refuerza tu energía y sistema inmunológico con Ganoderma lucidum.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-8 transform transition-transform duration-300 hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-primary mb-4">Spirulina DXN</h3>
+                    <p class="text-gray-600">Superalimento con proteínas, minerales y antioxidantes naturales.</p>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#contacto" class="inline-block bg-primary hover:bg-secondary text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:-translate-y-1">Solicitar
+                    información</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="pan" class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Pan artesanal</h2>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-8 max-w-3xl mx-auto transform transition-transform duration-300 hover:-translate-y-1">
+                <h3 class="text-2xl font-semibold text-primary mb-4">Pan de masa madre</h3>
+                <p class="text-gray-600">Hecho con fermentación natural, sin conservadores, ideal para una alimentación saludable. Disponible por pedido.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sastreria" class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Sastrería</h2>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-8 max-w-3xl mx-auto transform transition-transform duration-300 hover:-translate-y-1">
+                <h3 class="text-2xl font-semibold text-primary mb-4">Ropa a la medida</h3>
+                <p class="text-gray-600">Diseño, confección y ajustes para trajes, camisas, pantalones y más. Calidad garantizada con más de 10 años de experiencia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Contacto</h2>
+            </div>
+            <div class="max-w-2xl mx-auto">
+                <form id="contactForm" class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="mb-6">
+                        <label for="nombre" class="block text-gray-700 font-semibold mb-2">Nombre</label>
+                        <input type="text" id="nombre" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                    </div>
+                    <div class="mb-6">
+                        <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
+                        <input type="email" id="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                    </div>
+                    <div class="mb-6">
+                        <label for="mensaje" class="block text-gray-700 font-semibold mb-2">Mensaje</label>
+                        <textarea id="mensaje" rows="5" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-primary hover:bg-secondary text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:-translate-y-1">Enviar
+                        mensaje</button>
+                </form>
+            </div>
+            <div class="flex justify-center gap-6 mt-8">
+                <a href="https://wa.me/5219613295631" target="_blank" title="WhatsApp" class="text-primary hover:text-secondary text-3xl transition-colors duration-300">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="mailto:domingohernandezdiaz2030@hotmail.com" title="Email" class="text-primary hover:text-secondary text-3xl transition-colors duration-300">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <div class="text-center mt-8">
+                <p class="text-gray-600">San Pedro Nichtalucum, El Bosque, Chiapas</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-primary text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Domingo Hernández Díaz - El Amigo Sastre. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
